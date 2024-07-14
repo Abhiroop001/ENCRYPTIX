@@ -13,7 +13,7 @@ match operation:
             result = num1 / num2
         else:
             print("Error: Division by zero!")
-    case _:
+    case default:
         print("Error: Invalid operation!")
 if 'result' in locals():
     print("Result:", result)
